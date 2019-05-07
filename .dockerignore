@@ -1,0 +1,7 @@
+node_modules/
+.gitignore
+.DS_Store
+package-lock.json
+microservice.yml
+README.md
+generate.js

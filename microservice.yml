@@ -1,0 +1,1356 @@
+omg: 1
+lifecycle:
+  startup:
+    command:
+      - node
+      - app.js
+info:
+  version: 1.0.0
+  title: FOAAS
+  description: 'FOAAS as a OMG microservice'
+  license:
+    name: MIT
+    url: 'https://opensource.org/licenses/MIT'
+  contact:
+    name: 'Aurelien ARINO'
+    url: 'https://storyscript.io'
+    email: aurelien@storyscript.io
+actions:
+  anyway:
+    help: 'Who the fuck are you anyway'
+    arguments:
+      company:
+        type: string
+        in: query
+        help: Company
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /anyway
+      contentType: application/json
+    output:
+      type: string
+  asshole:
+    help: Asshole
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /asshole
+      contentType: application/json
+    output:
+      type: string
+  awesome:
+    help: Awesome
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /awesome
+      contentType: application/json
+    output:
+      type: string
+  back:
+    help: 'Back the fuck off'
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /back
+      contentType: application/json
+    output:
+      type: string
+  bag:
+    help: Bag
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /bag
+      contentType: application/json
+    output:
+      type: string
+  ballmer:
+    help: Ballmer
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      company:
+        type: string
+        in: query
+        help: Company
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /ballmer
+      contentType: application/json
+    output:
+      type: string
+  bday:
+    help: Bday
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /bday
+      contentType: application/json
+    output:
+      type: string
+  because:
+    help: Because
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /because
+      contentType: application/json
+    output:
+      type: string
+  blackadder:
+    help: Blackadder
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /blackadder
+      contentType: application/json
+    output:
+      type: string
+  bm:
+    help: 'Bravo Mike'
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /bm
+      contentType: application/json
+    output:
+      type: string
+  bucket:
+    help: Bucket
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /bucket
+      contentType: application/json
+    output:
+      type: string
+  bus:
+    help: Bus
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /bus
+      contentType: application/json
+    output:
+      type: string
+  bye:
+    help: Bye
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /bye
+      contentType: application/json
+    output:
+      type: string
+  caniuse:
+    help: 'Can I Use'
+    arguments:
+      tool:
+        type: string
+        in: query
+        help: Tool
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /caniuse
+      contentType: application/json
+    output:
+      type: string
+  chainsaw:
+    help: Chainsaw
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /chainsaw
+      contentType: application/json
+    output:
+      type: string
+  cocksplat:
+    help: Cocksplat
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /cocksplat
+      contentType: application/json
+    output:
+      type: string
+  cool:
+    help: 'Cool Story'
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /cool
+      contentType: application/json
+    output:
+      type: string
+  cup:
+    help: Cup
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /cup
+      contentType: application/json
+    output:
+      type: string
+  dalton:
+    help: Dalton
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /dalton
+      contentType: application/json
+    output:
+      type: string
+  deraadt:
+    help: '{name} you are being the usual slimy hypocritical asshole... You may have had value ten years ago, but people will see that you don''t anymore.'
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /deraadt
+      contentType: application/json
+    output:
+      type: string
+  diabetes:
+    help: Diabetes
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /diabetes
+      contentType: application/json
+    output:
+      type: string
+  donut:
+    help: Donut
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /donut
+      contentType: application/json
+    output:
+      type: string
+  dosomething:
+    help: 'Do Something'
+    arguments:
+      do:
+        type: string
+        in: query
+        help: Do
+      something:
+        type: string
+        in: query
+        help: Something
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /dosomething
+      contentType: application/json
+    output:
+      type: string
+  equity:
+    help: Equity
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /equity
+      contentType: application/json
+    output:
+      type: string
+  everyone:
+    help: Everyone
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /everyone
+      contentType: application/json
+    output:
+      type: string
+  everything:
+    help: Everything
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /everything
+      contentType: application/json
+    output:
+      type: string
+  family:
+    help: Family
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /family
+      contentType: application/json
+    output:
+      type: string
+  fascinating:
+    help: Fascinating
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /fascinating
+      contentType: application/json
+    output:
+      type: string
+  field:
+    help: 'Field of Fucks'
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+      reference:
+        type: string
+        in: query
+        help: Reference
+    http:
+      port: 5000
+      method: get
+      path: /field
+      contentType: application/json
+    output:
+      type: string
+  flying:
+    help: Flying
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /flying
+      contentType: application/json
+    output:
+      type: string
+  fts:
+    help: 'Fuck That Shit'
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /fts
+      contentType: application/json
+    output:
+      type: string
+  fyyff:
+    help: FYYFF
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /fyyff
+      contentType: application/json
+    output:
+      type: string
+  gfy:
+    help: 'Golf Foxtrot Yankee'
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /gfy
+      contentType: application/json
+    output:
+      type: string
+  give:
+    help: Give
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /give
+      contentType: application/json
+    output:
+      type: string
+  greed:
+    help: Greed
+    arguments:
+      noun:
+        type: string
+        in: query
+        help: Noun
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /greed
+      contentType: application/json
+    output:
+      type: string
+  horse:
+    help: 'Fuck you and the horse you rode in on'
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /horse
+      contentType: application/json
+    output:
+      type: string
+  immensity:
+    help: Immensity
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /immensity
+      contentType: application/json
+    output:
+      type: string
+  ing:
+    help: Fucking
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /ing
+      contentType: application/json
+    output:
+      type: string
+  keep:
+    help: Keep
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /keep
+      contentType: application/json
+    output:
+      type: string
+  keepcalm:
+    help: 'Keep Calm'
+    arguments:
+      reaction:
+        type: string
+        in: query
+        help: Reaction
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /keepcalm
+      contentType: application/json
+    output:
+      type: string
+  king:
+    help: King
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /king
+      contentType: application/json
+    output:
+      type: string
+  life:
+    help: Life
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /life
+      contentType: application/json
+    output:
+      type: string
+  linus:
+    help: Linus
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /linus
+      contentType: application/json
+    output:
+      type: string
+  look:
+    help: Look
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /look
+      contentType: application/json
+    output:
+      type: string
+  looking:
+    help: Looking
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /looking
+      contentType: application/json
+    output:
+      type: string
+  madison:
+    help: Madison
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /madison
+      contentType: application/json
+    output:
+      type: string
+  maybe:
+    help: Maybe
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /maybe
+      contentType: application/json
+    output:
+      type: string
+  me:
+    help: 'Fuck Me'
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /me
+      contentType: application/json
+    output:
+      type: string
+  mornin:
+    help: mornin
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /mornin
+      contentType: application/json
+    output:
+      type: string
+  no:
+    help: No
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /no
+      contentType: application/json
+    output:
+      type: string
+  nugget:
+    help: Nugget
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /nugget
+      contentType: application/json
+    output:
+      type: string
+  off:
+    help: 'Fuck Off'
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /off
+      contentType: application/json
+    output:
+      type: string
+  off_with:
+    help: 'Fuck Off With'
+    arguments:
+      behavior:
+        type: string
+        in: query
+        help: Behavior
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /off-with
+      contentType: application/json
+    output:
+      type: string
+  outside:
+    help: Outside
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /outside
+      contentType: application/json
+    output:
+      type: string
+  particular:
+    help: 'This Thing In Particular'
+    arguments:
+      thing:
+        type: string
+        in: query
+        help: Thing
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /particular
+      contentType: application/json
+    output:
+      type: string
+  pink:
+    help: Pink
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /pink
+      contentType: application/json
+    output:
+      type: string
+  problem:
+    help: Problem
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /problem
+      contentType: application/json
+    output:
+      type: string
+  programmer:
+    help: Programmer
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /programmer
+      contentType: application/json
+    output:
+      type: string
+  pulp:
+    help: Pulp
+    arguments:
+      language:
+        type: string
+        in: query
+        help: Language
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /pulp
+      contentType: application/json
+    output:
+      type: string
+  question:
+    help: Question
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /question
+      contentType: application/json
+    output:
+      type: string
+  ratsarse:
+    help: 'Rat''s Arse'
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /ratsarse
+      contentType: application/json
+    output:
+      type: string
+  retard:
+    help: Retard
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /retard
+      contentType: application/json
+    output:
+      type: string
+  ridiculous:
+    help: 'That''s fucking ridiculous'
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /ridiculous
+      contentType: application/json
+    output:
+      type: string
+  rtfm:
+    help: RTFM
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /rtfm
+      contentType: application/json
+    output:
+      type: string
+  sake:
+    help: sake
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /sake
+      contentType: application/json
+    output:
+      type: string
+  shakespeare:
+    help: Shakespeare
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /shakespeare
+      contentType: application/json
+    output:
+      type: string
+  shit:
+    help: 'Fuck This Shit'
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /shit
+      contentType: application/json
+    output:
+      type: string
+  shutup:
+    help: 'Shut Up'
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /shutup
+      contentType: application/json
+    output:
+      type: string
+  single:
+    help: Single
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /single
+      contentType: application/json
+    output:
+      type: string
+  thanks:
+    help: Thanks
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /thanks
+      contentType: application/json
+    output:
+      type: string
+  that:
+    help: 'Fuck That'
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /that
+      contentType: application/json
+    output:
+      type: string
+  think:
+    help: 'You Think'
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /think
+      contentType: application/json
+    output:
+      type: string
+  thinking:
+    help: Thinking
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /thinking
+      contentType: application/json
+    output:
+      type: string
+  this:
+    help: 'Fuck This'
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /this
+      contentType: application/json
+    output:
+      type: string
+  thumbs:
+    help: 'This Guy'
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+      name:
+        type: string
+        in: query
+        help: Name
+    http:
+      port: 5000
+      method: get
+      path: /thumbs
+      contentType: application/json
+    output:
+      type: string
+  too:
+    help: Too
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /too
+      contentType: application/json
+    output:
+      type: string
+  tucker:
+    help: Tucker
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /tucker
+      contentType: application/json
+    output:
+      type: string
+  what:
+    help: What
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /what
+      contentType: application/json
+    output:
+      type: string
+  xmas:
+    help: Xmas
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /xmas
+      contentType: application/json
+    output:
+      type: string
+  yoda:
+    help: Yoda
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /yoda
+      contentType: application/json
+    output:
+      type: string
+  you:
+    help: 'Fuck You'
+    arguments:
+      name:
+        type: string
+        in: query
+        help: Name
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /you
+      contentType: application/json
+    output:
+      type: string
+  zayn:
+    help: Zayn
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /zayn
+      contentType: application/json
+    output:
+      type: string
+  zero:
+    help: Zero
+    arguments:
+      from:
+        type: string
+        in: query
+        help: From
+    http:
+      port: 5000
+      method: get
+      path: /zero
+      contentType: application/json
+    output:
+      type: string
