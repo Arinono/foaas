@@ -31,7 +31,7 @@ actions:
       port: 5000
       method: get
       path: /anyway
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   asshole:
@@ -45,7 +45,7 @@ actions:
       port: 5000
       method: get
       path: /asshole
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   awesome:
@@ -59,7 +59,7 @@ actions:
       port: 5000
       method: get
       path: /awesome
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   back:
@@ -77,7 +77,7 @@ actions:
       port: 5000
       method: get
       path: /back
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   bag:
@@ -91,7 +91,7 @@ actions:
       port: 5000
       method: get
       path: /bag
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   ballmer:
@@ -113,7 +113,7 @@ actions:
       port: 5000
       method: get
       path: /ballmer
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   bday:
@@ -131,7 +131,7 @@ actions:
       port: 5000
       method: get
       path: /bday
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   because:
@@ -145,7 +145,7 @@ actions:
       port: 5000
       method: get
       path: /because
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   blackadder:
@@ -163,7 +163,7 @@ actions:
       port: 5000
       method: get
       path: /blackadder
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   bm:
@@ -181,7 +181,7 @@ actions:
       port: 5000
       method: get
       path: /bm
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   bucket:
@@ -195,7 +195,7 @@ actions:
       port: 5000
       method: get
       path: /bucket
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   bus:
@@ -213,7 +213,7 @@ actions:
       port: 5000
       method: get
       path: /bus
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   bye:
@@ -227,7 +227,7 @@ actions:
       port: 5000
       method: get
       path: /bye
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   caniuse:
@@ -245,7 +245,7 @@ actions:
       port: 5000
       method: get
       path: /caniuse
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   chainsaw:
@@ -263,7 +263,7 @@ actions:
       port: 5000
       method: get
       path: /chainsaw
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   cocksplat:
@@ -281,7 +281,7 @@ actions:
       port: 5000
       method: get
       path: /cocksplat
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   cool:
@@ -295,7 +295,7 @@ actions:
       port: 5000
       method: get
       path: /cool
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   cup:
@@ -309,7 +309,7 @@ actions:
       port: 5000
       method: get
       path: /cup
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   dalton:
@@ -327,7 +327,7 @@ actions:
       port: 5000
       method: get
       path: /dalton
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   deraadt:
@@ -345,7 +345,7 @@ actions:
       port: 5000
       method: get
       path: /deraadt
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   diabetes:
@@ -359,7 +359,7 @@ actions:
       port: 5000
       method: get
       path: /diabetes
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   donut:
@@ -377,7 +377,7 @@ actions:
       port: 5000
       method: get
       path: /donut
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   dosomething:
@@ -399,7 +399,7 @@ actions:
       port: 5000
       method: get
       path: /dosomething
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   equity:
@@ -417,7 +417,7 @@ actions:
       port: 5000
       method: get
       path: /equity
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   everyone:
@@ -431,7 +431,7 @@ actions:
       port: 5000
       method: get
       path: /everyone
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   everything:
@@ -445,7 +445,7 @@ actions:
       port: 5000
       method: get
       path: /everything
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   family:
@@ -459,7 +459,7 @@ actions:
       port: 5000
       method: get
       path: /family
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   fascinating:
@@ -473,7 +473,7 @@ actions:
       port: 5000
       method: get
       path: /fascinating
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   field:
@@ -495,7 +495,7 @@ actions:
       port: 5000
       method: get
       path: /field
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   flying:
@@ -509,7 +509,7 @@ actions:
       port: 5000
       method: get
       path: /flying
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   fts:
@@ -527,7 +527,7 @@ actions:
       port: 5000
       method: get
       path: /fts
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   fyyff:
@@ -541,7 +541,7 @@ actions:
       port: 5000
       method: get
       path: /fyyff
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   gfy:
@@ -559,7 +559,7 @@ actions:
       port: 5000
       method: get
       path: /gfy
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   give:
@@ -573,7 +573,7 @@ actions:
       port: 5000
       method: get
       path: /give
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   greed:
@@ -591,7 +591,7 @@ actions:
       port: 5000
       method: get
       path: /greed
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   horse:
@@ -605,7 +605,7 @@ actions:
       port: 5000
       method: get
       path: /horse
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   immensity:
@@ -619,7 +619,7 @@ actions:
       port: 5000
       method: get
       path: /immensity
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   ing:
@@ -637,7 +637,7 @@ actions:
       port: 5000
       method: get
       path: /ing
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   keep:
@@ -655,7 +655,7 @@ actions:
       port: 5000
       method: get
       path: /keep
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   keepcalm:
@@ -673,7 +673,7 @@ actions:
       port: 5000
       method: get
       path: /keepcalm
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   king:
@@ -691,7 +691,7 @@ actions:
       port: 5000
       method: get
       path: /king
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   life:
@@ -705,7 +705,7 @@ actions:
       port: 5000
       method: get
       path: /life
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   linus:
@@ -723,7 +723,7 @@ actions:
       port: 5000
       method: get
       path: /linus
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   look:
@@ -741,7 +741,7 @@ actions:
       port: 5000
       method: get
       path: /look
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   looking:
@@ -755,7 +755,7 @@ actions:
       port: 5000
       method: get
       path: /looking
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   madison:
@@ -773,7 +773,7 @@ actions:
       port: 5000
       method: get
       path: /madison
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   maybe:
@@ -787,7 +787,7 @@ actions:
       port: 5000
       method: get
       path: /maybe
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   me:
@@ -801,7 +801,7 @@ actions:
       port: 5000
       method: get
       path: /me
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   mornin:
@@ -815,7 +815,7 @@ actions:
       port: 5000
       method: get
       path: /mornin
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   no:
@@ -829,7 +829,7 @@ actions:
       port: 5000
       method: get
       path: /no
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   nugget:
@@ -847,7 +847,7 @@ actions:
       port: 5000
       method: get
       path: /nugget
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   off:
@@ -865,7 +865,7 @@ actions:
       port: 5000
       method: get
       path: /off
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   off_with:
@@ -883,7 +883,7 @@ actions:
       port: 5000
       method: get
       path: /off-with
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   outside:
@@ -901,7 +901,7 @@ actions:
       port: 5000
       method: get
       path: /outside
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   particular:
@@ -919,7 +919,7 @@ actions:
       port: 5000
       method: get
       path: /particular
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   pink:
@@ -933,7 +933,7 @@ actions:
       port: 5000
       method: get
       path: /pink
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   problem:
@@ -951,7 +951,7 @@ actions:
       port: 5000
       method: get
       path: /problem
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   programmer:
@@ -965,7 +965,7 @@ actions:
       port: 5000
       method: get
       path: /programmer
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   pulp:
@@ -983,7 +983,7 @@ actions:
       port: 5000
       method: get
       path: /pulp
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   question:
@@ -997,7 +997,7 @@ actions:
       port: 5000
       method: get
       path: /question
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   ratsarse:
@@ -1011,7 +1011,7 @@ actions:
       port: 5000
       method: get
       path: /ratsarse
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   retard:
@@ -1025,7 +1025,7 @@ actions:
       port: 5000
       method: get
       path: /retard
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   ridiculous:
@@ -1039,7 +1039,7 @@ actions:
       port: 5000
       method: get
       path: /ridiculous
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   rtfm:
@@ -1053,7 +1053,7 @@ actions:
       port: 5000
       method: get
       path: /rtfm
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   sake:
@@ -1067,7 +1067,7 @@ actions:
       port: 5000
       method: get
       path: /sake
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   shakespeare:
@@ -1085,7 +1085,7 @@ actions:
       port: 5000
       method: get
       path: /shakespeare
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   shit:
@@ -1099,7 +1099,7 @@ actions:
       port: 5000
       method: get
       path: /shit
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   shutup:
@@ -1117,7 +1117,7 @@ actions:
       port: 5000
       method: get
       path: /shutup
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   single:
@@ -1131,7 +1131,7 @@ actions:
       port: 5000
       method: get
       path: /single
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   thanks:
@@ -1145,7 +1145,7 @@ actions:
       port: 5000
       method: get
       path: /thanks
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   that:
@@ -1159,7 +1159,7 @@ actions:
       port: 5000
       method: get
       path: /that
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   think:
@@ -1177,7 +1177,7 @@ actions:
       port: 5000
       method: get
       path: /think
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   thinking:
@@ -1195,7 +1195,7 @@ actions:
       port: 5000
       method: get
       path: /thinking
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   this:
@@ -1209,7 +1209,7 @@ actions:
       port: 5000
       method: get
       path: /this
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   thumbs:
@@ -1227,7 +1227,7 @@ actions:
       port: 5000
       method: get
       path: /thumbs
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   too:
@@ -1241,7 +1241,7 @@ actions:
       port: 5000
       method: get
       path: /too
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   tucker:
@@ -1255,7 +1255,7 @@ actions:
       port: 5000
       method: get
       path: /tucker
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   what:
@@ -1269,7 +1269,7 @@ actions:
       port: 5000
       method: get
       path: /what
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   xmas:
@@ -1287,7 +1287,7 @@ actions:
       port: 5000
       method: get
       path: /xmas
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   yoda:
@@ -1305,7 +1305,7 @@ actions:
       port: 5000
       method: get
       path: /yoda
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   you:
@@ -1323,7 +1323,7 @@ actions:
       port: 5000
       method: get
       path: /you
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   zayn:
@@ -1337,7 +1337,7 @@ actions:
       port: 5000
       method: get
       path: /zayn
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string
   zero:
@@ -1351,6 +1351,6 @@ actions:
       port: 5000
       method: get
       path: /zero
-      contentType: application/json
+      contentType: text/plain
     output:
       type: string

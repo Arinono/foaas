@@ -2,6 +2,7 @@ const fs = require('fs')
 const yamljs = require('yamljs')
 const path = require('path')
 const getOperations = require('./app').getOperations
+const port = process.env.PUBSUB_PORT || 5000
 
 getOperations().then(ope => {
   const json = {
@@ -37,10 +38,10 @@ getOperations().then(ope => {
         }
       }
       json.actions[action].http = {
-        port: 5000,
+        port: port,
         method: 'get',
         path: o.url.substr(0, action.length + 1),
-        contentType: 'application/json'
+        contentType: 'text/plain'
       }
       json.actions[action].output = { type: 'string' }
     }
