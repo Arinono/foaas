@@ -45,7 +45,7 @@ getOperations().then(ope => {
       json.actions[action].output = { type: 'string' }
     }
   }
-  // console.log(yamljs.stringify(json, 5, 2))
+  console.log(yamljs.stringify(json, 5, 2))
   fs.writeFileSync(
     path.join(process.cwd(), 'microservice.yml'),
     yamljs.stringify(json, 5, 2)
