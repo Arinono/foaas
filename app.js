@@ -2,7 +2,7 @@ const express = require('express')
 const request = require('request')
 const app = express()
 const router = express.Router()
-const port = process.env.PUBSUB_PORT || 5000
+const port = 5000
 
 exports.getOperations = () => {
   return new Promise((resolve, reject) => {
@@ -63,6 +63,11 @@ this.getOperations()
         )
       })
     })
+
+    router.get('/health', (req, res) => {
+      res.statusCode(200).send()
+    })
+
     app.use(router)
 
     console.log(`App listening on port ${port}`)

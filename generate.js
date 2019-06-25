@@ -18,6 +18,12 @@ getOperations().then(ope => {
         url: 'https://storyscript.io',
         email: 'aurelien@storyscript.io'
       }
+    },
+    health: {
+      http: {
+        path: '/health',
+        port: 5000
+      }
     }
   }
   json.actions = {}
