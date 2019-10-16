@@ -40,14 +40,14 @@ getOperations().then(ope => {
           json.actions[action].arguments[f.field] = {}
           json.actions[action].arguments[f.field].type = 'string'
           json.actions[action].arguments[f.field].in = 'query'
-          json.actions[action].arguments[f.field].help = f.name
+          //json.actions[action].arguments[f.field].help = f.name
         }
       }
       json.actions[action].http = {
         port: port,
         method: 'get',
         path: o.url.substr(0, action.length + 1),
-        contentType: 'text/plain'
+        contentType: 'application/json'
       }
       json.actions[action].output = { type: 'string' }
     }

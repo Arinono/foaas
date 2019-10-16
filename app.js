@@ -65,7 +65,7 @@ this.getOperations()
     })
 
     router.get('/health', (req, res) => {
-      res.statusCode(200).send()
+      res.status(200).send()
     })
 
     app.use(router)

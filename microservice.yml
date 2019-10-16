@@ -26,16 +26,14 @@ actions:
       company:
         type: string
         in: query
-        help: Company
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /anyway
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   asshole:
@@ -44,12 +42,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /asshole
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   awesome:
@@ -58,12 +55,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /awesome
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   back:
@@ -72,16 +68,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /back
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   bag:
@@ -90,12 +84,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /bag
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   ballmer:
@@ -104,20 +97,17 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       company:
         type: string
         in: query
-        help: Company
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /ballmer
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   bday:
@@ -126,16 +116,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /bday
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   because:
@@ -144,12 +132,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /because
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   blackadder:
@@ -158,16 +145,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /blackadder
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   bm:
@@ -176,16 +161,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /bm
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   bucket:
@@ -194,12 +177,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /bucket
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   bus:
@@ -208,16 +190,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /bus
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   bye:
@@ -226,12 +206,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /bye
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   caniuse:
@@ -240,16 +219,14 @@ actions:
       tool:
         type: string
         in: query
-        help: Tool
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /caniuse
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   chainsaw:
@@ -258,16 +235,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /chainsaw
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   cocksplat:
@@ -276,16 +251,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /cocksplat
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   cool:
@@ -294,12 +267,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /cool
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   cup:
@@ -308,12 +280,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /cup
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   dalton:
@@ -322,16 +293,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /dalton
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   deraadt:
@@ -340,16 +309,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /deraadt
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   diabetes:
@@ -358,12 +325,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /diabetes
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   donut:
@@ -372,16 +338,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /donut
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   dosomething:
@@ -390,20 +354,17 @@ actions:
       do:
         type: string
         in: query
-        help: Do
       something:
         type: string
         in: query
-        help: Something
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /dosomething
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   equity:
@@ -412,16 +373,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /equity
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   everyone:
@@ -430,12 +389,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /everyone
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   everything:
@@ -444,12 +402,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /everything
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   family:
@@ -458,12 +415,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /family
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   fascinating:
@@ -472,12 +428,27 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /fascinating
-      contentType: text/plain
+      contentType: application/json
+    output:
+      type: string
+  fewer:
+    help: 'Disappoint Fewer People'
+    arguments:
+      name:
+        type: string
+        in: query
+      from:
+        type: string
+        in: query
+    http:
+      port: 5000
+      method: get
+      path: /fewer
+      contentType: application/json
     output:
       type: string
   field:
@@ -486,20 +457,17 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
       reference:
         type: string
         in: query
-        help: Reference
     http:
       port: 5000
       method: get
       path: /field
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   flying:
@@ -508,12 +476,24 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /flying
-      contentType: text/plain
+      contentType: application/json
+    output:
+      type: string
+  ftfy:
+    help: 'Fuck That, Fuck You'
+    arguments:
+      from:
+        type: string
+        in: query
+    http:
+      port: 5000
+      method: get
+      path: /ftfy
+      contentType: application/json
     output:
       type: string
   fts:
@@ -522,16 +502,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /fts
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   fyyff:
@@ -540,12 +518,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /fyyff
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   gfy:
@@ -554,16 +531,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /gfy
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   give:
@@ -572,12 +547,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /give
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   greed:
@@ -586,16 +560,14 @@ actions:
       noun:
         type: string
         in: query
-        help: Noun
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /greed
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   horse:
@@ -604,12 +576,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /horse
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   immensity:
@@ -618,12 +589,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /immensity
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   ing:
@@ -632,16 +602,27 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /ing
-      contentType: text/plain
+      contentType: application/json
+    output:
+      type: string
+  jinglebells:
+    help: 'Jingle Bells'
+    arguments:
+      from:
+        type: string
+        in: query
+    http:
+      port: 5000
+      method: get
+      path: /jinglebells
+      contentType: application/json
     output:
       type: string
   keep:
@@ -650,16 +631,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /keep
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   keepcalm:
@@ -668,16 +647,14 @@ actions:
       reaction:
         type: string
         in: query
-        help: Reaction
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /keepcalm
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   king:
@@ -686,16 +663,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /king
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   life:
@@ -704,12 +679,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /life
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   linus:
@@ -718,16 +692,27 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /linus
-      contentType: text/plain
+      contentType: application/json
+    output:
+      type: string
+  logs:
+    help: 'Check your fucking logs!'
+    arguments:
+      from:
+        type: string
+        in: query
+    http:
+      port: 5000
+      method: get
+      path: /logs
+      contentType: application/json
     output:
       type: string
   look:
@@ -736,16 +721,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /look
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   looking:
@@ -754,12 +737,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /looking
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   madison:
@@ -768,16 +750,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /madison
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   maybe:
@@ -786,12 +766,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /maybe
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   me:
@@ -800,12 +779,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /me
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   mornin:
@@ -814,12 +792,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /mornin
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   no:
@@ -828,12 +805,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /no
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   nugget:
@@ -842,16 +818,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /nugget
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   off:
@@ -860,16 +834,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /off
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   off_with:
@@ -878,16 +850,14 @@ actions:
       behavior:
         type: string
         in: query
-        help: Behavior
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /off-with
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   outside:
@@ -896,16 +866,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /outside
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   particular:
@@ -914,16 +882,14 @@ actions:
       thing:
         type: string
         in: query
-        help: Thing
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /particular
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   pink:
@@ -932,12 +898,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /pink
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   problem:
@@ -946,16 +911,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /problem
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   programmer:
@@ -964,12 +927,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /programmer
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   pulp:
@@ -978,16 +940,14 @@ actions:
       language:
         type: string
         in: query
-        help: Language
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /pulp
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   question:
@@ -996,12 +956,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /question
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   ratsarse:
@@ -1010,12 +969,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /ratsarse
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   retard:
@@ -1024,12 +982,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /retard
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   ridiculous:
@@ -1038,12 +995,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /ridiculous
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   rtfm:
@@ -1052,12 +1008,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /rtfm
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   sake:
@@ -1066,12 +1021,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /sake
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   shakespeare:
@@ -1080,16 +1034,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /shakespeare
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   shit:
@@ -1098,12 +1050,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /shit
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   shutup:
@@ -1112,16 +1063,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /shutup
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   single:
@@ -1130,12 +1079,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /single
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   thanks:
@@ -1144,12 +1092,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /thanks
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   that:
@@ -1158,12 +1105,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /that
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   think:
@@ -1172,16 +1118,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /think
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   thinking:
@@ -1190,16 +1134,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /thinking
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   this:
@@ -1208,12 +1150,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /this
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   thumbs:
@@ -1222,16 +1163,14 @@ actions:
       from:
         type: string
         in: query
-        help: From
       name:
         type: string
         in: query
-        help: Name
     http:
       port: 5000
       method: get
       path: /thumbs
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   too:
@@ -1240,12 +1179,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /too
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   tucker:
@@ -1254,12 +1192,27 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /tucker
-      contentType: text/plain
+      contentType: application/json
+    output:
+      type: string
+  waste:
+    help: Waste
+    arguments:
+      name:
+        type: string
+        in: query
+      from:
+        type: string
+        in: query
+    http:
+      port: 5000
+      method: get
+      path: /waste
+      contentType: application/json
     output:
       type: string
   what:
@@ -1268,12 +1221,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /what
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   xmas:
@@ -1282,16 +1234,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /xmas
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   yoda:
@@ -1300,16 +1250,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /yoda
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   you:
@@ -1318,16 +1266,14 @@ actions:
       name:
         type: string
         in: query
-        help: Name
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /you
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   zayn:
@@ -1336,12 +1282,11 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /zayn
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
   zero:
@@ -1350,11 +1295,10 @@ actions:
       from:
         type: string
         in: query
-        help: From
     http:
       port: 5000
       method: get
       path: /zero
-      contentType: text/plain
+      contentType: application/json
     output:
       type: string
